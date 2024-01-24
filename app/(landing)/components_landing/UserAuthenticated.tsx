@@ -26,12 +26,8 @@ export default async function UserAuthenticated() {
     return (
         <div className="flex flex-grow gap-x-4 items-center">
             <Link href="/lead-magnets" legacyBehavior passHref>
-                <Button variant="outline">
-                        <span
-                            className="uppercase animate-pulse bg-gradient-to-r from-primary  to-violet-500 bg-clip-text text-transparent cursor-pointer"
-                        >
-                            Dashboard
-                        </span>
+                <Button variant="rainbow">
+                    Dashboard
                 </Button>
             </Link>
 
