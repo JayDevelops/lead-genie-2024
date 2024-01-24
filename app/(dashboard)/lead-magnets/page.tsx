@@ -1,6 +1,7 @@
 import React from "react";
 import {auth} from "@clerk/nextjs";
 import {prismadb} from "@/lib/prismadb";
+import LeadMagnetsContainer from "@/app/(dashboard)/lead-magnets/LeadMagnetsContainer";
 
 export default async function LeadMagnetsPage() {
     //  Grab the current UserID
@@ -23,9 +24,7 @@ export default async function LeadMagnetsPage() {
     console.log("", leadMagnets)
     console.log("", leads)
     return (
-        <div>
-            Lead Magnets Page
-        </div>
+        <LeadMagnetsContainer leadMagnets={leadMagnets} leads={leads} />
     )
 }
 
