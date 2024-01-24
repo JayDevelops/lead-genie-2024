@@ -1,5 +1,4 @@
 import React from "react";
-import LandingNavBar from "@/app/(landing)/components_landing/LandingNavBar";
 
 export default function LandingLayout(
     {
@@ -9,7 +8,6 @@ export default function LandingLayout(
 }>) {
     return (
         <section className="landing-page flex min-h-screen flex-col overflow-x-clip">
-            <LandingNavBar />
 
             <div className="flex-grow">
                 {children}

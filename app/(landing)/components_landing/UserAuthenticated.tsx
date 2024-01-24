@@ -30,7 +30,7 @@ export default async function UserAuthenticated() {
                         <span
                             className="uppercase animate-pulse bg-gradient-to-r from-primary  to-violet-500 bg-clip-text text-transparent cursor-pointer"
                         >
-                            Open Dashboard
+                            Dashboard
                         </span>
                 </Button>
             </Link>
