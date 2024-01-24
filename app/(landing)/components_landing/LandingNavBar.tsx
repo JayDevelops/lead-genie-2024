@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import UserAuthenticated from "@/app/(landing)/components_landing/UserAuthenticated";
-import {ModeToggle} from "@/components/ui/mode-toggle";
 
 export default function LandingNavBar() {
 
