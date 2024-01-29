@@ -48,7 +48,7 @@ export function HeadingTwo({ children, color = "primary", className = "" }: Head
 
     return (
         <h2
-            className={`scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0 ${colorClassValue} ${className}`}
+            className={`scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0 ${colorClassValue} ${className}`}
         >
             {children}
         </h2>
@@ -76,7 +76,7 @@ export function HeadingFour({ children, color = "primary", className = "" }: Hea
 
     return (
         <h4 className={`scroll-m-20 text-xl font-semibold tracking-tight ${colorClassValue} ${className}`}>
-            People stopped telling jokes
+            {children}
         </h4>
     )
 }
