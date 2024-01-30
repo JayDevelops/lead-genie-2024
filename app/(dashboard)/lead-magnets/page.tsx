@@ -21,8 +21,6 @@ export default async function LeadMagnetsPage() {
         leadsRequest,
     ])
 
-    console.log("", leadMagnets)
-    console.log("", leads)
     return (
         <LeadMagnetsContainer leadMagnets={leadMagnets} leads={leads} />
     )
