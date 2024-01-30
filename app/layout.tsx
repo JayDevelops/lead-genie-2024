@@ -1,11 +1,13 @@
+import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {ClerkProvider} from "@clerk/nextjs";  // used for user authentication
 import {ThemeProvider} from "@/components/theme-provider";
-import React from "react";
+import { Toaster } from "@/components/ui/toaster"
+import {NextFont} from "next/dist/compiled/@next/font";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter: NextFont = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lead Genie AI",
@@ -28,6 +30,7 @@ export default function RootLayout({
               disableTransitionOnChange
           >
               {children}
+              <Toaster />
           </ThemeProvider>
           </body>
           </html>
