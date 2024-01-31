@@ -1,7 +1,7 @@
 "use client"
 import React, {ReactNode, useState} from "react";
 import LeadMagnetEditorNavBar
-    from "@/app/(dashboard)/lead-magnet-editor/[[...leadMagnetId]]/editor_components/LeadMagnetEditorNavBar";
+    from "@/app/(dashboard)/lead-magnet-editor/[[...leadMagnetId]]/LeadMagnetEditorNavBar";
 
 export type LeadMagnetSections =
     | "content"
