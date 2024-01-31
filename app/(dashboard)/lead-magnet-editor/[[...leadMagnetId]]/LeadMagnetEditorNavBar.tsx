@@ -6,7 +6,7 @@ export default function LeadMagnetEditorNavBar() {
     console.log("editedLeadMagnet", editedLeadMagnet)
 
     return (
-        <div>
+        <div className="flex w-full items-center justify-between border-b-[1px] border-solid border-accent-foreground p-3 bg-secondary text-secondary-foreground">
             LeadMagnetEditorNavBar
         </div>
     )
