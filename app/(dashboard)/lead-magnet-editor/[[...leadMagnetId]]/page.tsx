@@ -16,7 +16,7 @@ export default async function LeadMagnetEditorPage({params}: LeadMagnetEditorPar
     //  Grab the first character from the params, else make it null,
     //  We make it null in case we don't have a leadMagnet with that same ID, then we post a new one to the backend
     const leadMagnetId: string | null = params.leadMagnetId?.length > 0 ? params.leadMagnetId[0] : null;
-    console.log("leadMagnetId: " + leadMagnetId)
+    console.log("LeadMagnet ID: " + leadMagnetId)
 
     //  initialize the leadMagnet
     let leadMagnet: LeadMagnet | null
